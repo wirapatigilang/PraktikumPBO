@@ -1,3 +1,8 @@
+/* Nama File : MMahasiswa.java */
+/* Deskripsi : Berisi Main untuk mahasiswa */
+/* Pembuat : Lalu Gilang Wirapati*/
+/* Tanggal : 1 Maret 2025*/
+
 public class MMahasiswa {
 
     public static void main(String[] args) {
