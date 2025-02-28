@@ -1,3 +1,8 @@
+/* Nama File : MataKuliah.java */
+/* Deskripsi : Berisi Konstruktor dan method untuk MataKuliah */
+/* Pembuat : Lalu Gilang Wirapati*/
+/* Tanggal : 1 Maret 2025*/
+
 public class MataKuliah {
     private String idMatKul;
     private String nama;
