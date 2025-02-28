@@ -1,3 +1,8 @@
+/* Nama File : Mahasiswa.java */
+/* Deskripsi : Berisi Konstruktor dan method untuk Mahasiswa */
+/* Pembuat : Lalu Gilang Wirapati*/
+/* Tanggal : 1 Maret 2025*/
+
 import java.util.ArrayList;
 
 public class Mahasiswa {
