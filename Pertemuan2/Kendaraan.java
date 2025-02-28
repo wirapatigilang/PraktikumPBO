@@ -1,3 +1,8 @@
+/* Nama File : Kendaraan.java */
+/* Deskripsi : Berisi Konstruktor dan method untuk Kendaraan */
+/* Pembuat : Lalu Gilang Wirapati*/
+/* Tanggal : 1 Maret 2025*/
+
 public class Kendaraan {
     private String noPlat;
     private String jenis;
