@@ -1,3 +1,8 @@
+/* Nama File : Dosen.java */
+/* Deskripsi : Berisi Konstruktor dan method untuk Dosen */
+/* Pembuat : Lalu Gilang Wirapati*/
+/* Tanggal : 19 Februari 2025*/
+
 
 public class Dosen {
     private String NIP;
