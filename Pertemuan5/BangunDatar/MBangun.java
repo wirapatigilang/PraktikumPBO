@@ -1,3 +1,4 @@
+package Java.Praktikum.PraktikumPBO.Pertemuan5.BangunDatar;
 
 public class MBangun {
     public static void main(String[] args) {

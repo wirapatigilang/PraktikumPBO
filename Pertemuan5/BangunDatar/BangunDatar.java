@@ -1,3 +1,4 @@
+package Java.Praktikum.PraktikumPBO.Pertemuan5.BangunDatar;
 
 public class BangunDatar {
     private int jmlSisi;
