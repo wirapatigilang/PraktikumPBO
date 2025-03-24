@@ -1,5 +1,3 @@
-package Java.Praktikum.PraktikumPBO.Pertemuan5.BangunDatar;
-
 public class MBangun {
     public static void main(String[] args) {
         Persegi P1 = new Persegi("Merah", "Putih", 5);
@@ -7,6 +5,9 @@ public class MBangun {
     
         P1.printInfo();
         L1.printInfo();
+
+        P1.zoomIn();
+        P1.printInfo();
     
     }   
 }

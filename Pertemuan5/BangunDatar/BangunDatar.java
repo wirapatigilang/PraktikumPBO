@@ -1,9 +1,8 @@
-package Java.Praktikum.PraktikumPBO.Pertemuan5.BangunDatar;
 
-public class BangunDatar {
-    private int jmlSisi;
-    private String warna;
-    private String border;
+public abstract class BangunDatar {
+    protected  int jmlSisi;
+    protected  String warna;
+    protected  String border;
     public static int counterBangunDatar=0;
 
     // Methode
@@ -53,16 +52,8 @@ public class BangunDatar {
         System.out.println("border : " + getBorder());
     }
 
+    abstract public double getLuas();
+
+    abstract public double getKeliling();
+
 }
-
-/*
-1. Tambahkan keyword final pada kelas BangunDatar. Bagaimana pengaruhnya terhadap kelas
-Persegi dan Lingkaran? 
-2. Hapus kembali keyword final pada kelas BangunDatar, lalu tambahkan keyword final pada method
-printInfo() di dalam kelas BangunDatar. Bagaimana pengaruhnya dengan method printInfo() pada
-kelas Persegi dan Lingkaran?
-
-Jawab:
-1. Apabila bangun datar diberikan final, maka tidak akan bisa mewarisi ke subclass d bawahnya
-2. gabisa memanggil super PrintInfo, yang mengakibatkan harus menulis ulang setiap code di subclass
-*/

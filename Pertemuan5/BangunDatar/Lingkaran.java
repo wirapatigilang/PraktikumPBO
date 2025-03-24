@@ -1,4 +1,3 @@
-package Java.Praktikum.PraktikumPBO.Pertemuan5.BangunDatar;
 
 public class Lingkaran extends BangunDatar{
     
@@ -24,10 +23,12 @@ public class Lingkaran extends BangunDatar{
         this.jari = jari;
     }
 
+    @Override
     public double getLuas () {
         return Math.PI*jari*jari;
     }
 
+    @Override
     public double getKeliling () {
         return Math.PI*jari*2;
     }

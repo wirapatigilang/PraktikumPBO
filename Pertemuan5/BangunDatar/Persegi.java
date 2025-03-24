@@ -1,20 +1,15 @@
-package Java.Praktikum.PraktikumPBO.Pertemuan5.BangunDatar;
-
-public class Persegi extends BangunDatar {
+public class Persegi extends BangunDatar implements IResize{
     private double sisi;
-    private static int counterPersegi = 0;
 
     // Method
     public Persegi () {
         setJmlSisi(4);
         this.sisi = 0;
-        counterPersegi++;
     }
 
     public Persegi (String warna, String border, double sisi) {
         super(4,warna,border);
         this.sisi = sisi;
-        counterPersegi ++;
     }
 
     public double getSisi () {
@@ -25,10 +20,12 @@ public class Persegi extends BangunDatar {
         this.sisi = sisi;
     }
 
+    @Override
     public double getLuas () {
         return this.sisi * this.sisi;
     }
 
+    @Override
     public double getKeliling () {
         return  this.sisi * 4;
     }
@@ -41,5 +38,13 @@ public class Persegi extends BangunDatar {
     public void printInfo() {
         super.printInfo();
         System.out.println("Sisi : " + getSisi());
+    }
+
+    public void zoomIn(){
+        this.sisi = sisi * 1.1;
+    }
+
+    public void zoomOut() {
+        this.sisi = sisi*0.9;
     }
 }
