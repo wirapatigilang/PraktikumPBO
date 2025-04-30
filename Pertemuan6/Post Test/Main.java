@@ -4,8 +4,7 @@
 // Deskripsi : Main
 
 import java.util.ArrayList;
-
-public class TestPolimorfisme {
+public class Main {
     public static void main(String[] args) {
         Pegawai pegawai1 = new Programmer("Mira");
         Pegawai pegawai2 = new Manajer("Joko");
