@@ -1,3 +1,6 @@
+/*
+ * Lalu Gilang Wirapati
+ */
 public class Main {
     public static void main(String[] args) {
         // Membuat objek Fakultas

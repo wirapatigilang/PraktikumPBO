@@ -7,15 +7,6 @@ import java.time.LocalDate;
 public class Main {
 
     public static void main(String[] args) {
-
-    
-    // Pegawai pegawai = new Pegawai();
-    // pegawai.PrintInfoPegawai();
-
-
-    // DosenTetap Dosen1 = new DosenTetap();
-    // Dosen1.PrintInfoPegawai();
-
     System.out.println("\n\n Dosen Tetap\n");
 
     DosenTetap Dosen2 = new DosenTetap("9545647548", "Lalu Gilang Wirapati", "78647324", LocalDate.of(2005, 7, 27), LocalDate.of(2023, 9, 1), 5000000, "Fakultas Sain dan Matematika");
