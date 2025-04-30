@@ -1,4 +1,3 @@
-package Inclusion;
 
 public class Car extends Vehicle {
     void calRent(int jarak, float harga) {
