@@ -1,6 +1,3 @@
-package Java.Praktikum.PraktikumPBO.Pertemuan6.Coercion;
-
-public class Main {
     public class Main {
 
         public static void main(String[] args){
@@ -24,4 +21,3 @@ public class Main {
     
         }
     }
-}
