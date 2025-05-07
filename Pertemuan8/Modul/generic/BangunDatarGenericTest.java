@@ -1,3 +1,9 @@
+/*
+ * FIle : BangunDatarGenericTest.java
+ * Deskirpsi : main class ntuk generic bangun datar
+ * Nama/Nim : Lalu Gilang Wirapati/24060123140162
+ * Tanggal : 7 May 2025
+ */
 
 public class BangunDatarGenericTest {
     public static void main (String[] args) {

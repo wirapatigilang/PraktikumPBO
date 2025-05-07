@@ -1,8 +1,8 @@
 /*
  * FIle : ArrayListTest.java
  * Deskirpsi : program penggunaan objek Array List sebagai collection class
- * 
- * 
+ * Nama/Nim : Lalu Gilang Wirapati
+ * Tanggal : 7 May 2025
  */
 
 import java.util.ArrayList;

@@ -1,3 +1,10 @@
+/*
+ * FIle : Lingkaran.java
+ * Deskirpsi : impelmentasi Lingkaran sebagai BangunDatar
+ * Nama/Nim : Lalu Gilang Wirapati/24060123140162
+ * Tanggal : 7 May 2025
+ */
+
 
 public class Lingkaran extends BangunDatar{
     private double jejari;

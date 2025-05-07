@@ -1,3 +1,11 @@
+/*
+ * FIle : MapTest.java
+ * Deskirpsi : program penggunaan objek Map sebagai collection class
+ * Nama/Nim : Lalu Gilang Wirapati
+ * Tanggal : 7 May 2025
+ */
+
+
 import java.util.*;
 
 public class MapTest {
