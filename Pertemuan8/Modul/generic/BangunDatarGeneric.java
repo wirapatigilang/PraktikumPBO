@@ -20,4 +20,8 @@ public class BangunDatarGeneric <T extends BangunDatar> {
     public double hitungKeliling () {
         return bangunDatar.hitungKeliling();
     }
+
+    public double hitungLuas() {
+        return bangunDatar.hitungLuas();
+    }
 }

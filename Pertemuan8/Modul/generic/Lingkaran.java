@@ -16,4 +16,8 @@ public class Lingkaran extends BangunDatar{
     public double hitungKeliling() {
         return 2*jejari*3.14;
     }
+
+    public double hitungLuas () {
+        return 3.14*jejari*jejari;
+    }
 }

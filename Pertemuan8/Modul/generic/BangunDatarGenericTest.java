@@ -12,5 +12,21 @@ public class BangunDatarGenericTest {
         bdg.set(l);
         System.out.println("keliling lingkaran : " + bdg.hitungKeliling());
         System.out.println("tipe generic : " + bdg.get().getClass().getName());
+
+
+        Persegi p = new Persegi(4);
+        BangunDatarGeneric<Persegi> prg = new BangunDatarGeneric<Persegi>();
+        prg.set(p);
+        System.out.println("keliling persegi : " + prg.hitungKeliling());
+        System.out.println("tipe generic : " + prg.get().getClass().getName());
+
+
+        PersegiPanjang pp = new PersegiPanjang(4,3);
+        BangunDatarGeneric<PersegiPanjang> ppg = new BangunDatarGeneric<PersegiPanjang>();
+        ppg.set(pp);
+        System.out.println("keliling persegi panjang : " + ppg.hitungKeliling());
+        System.out.println("tipe generic : " + ppg.get().getClass().getName());
+        
+
     }    
 }
