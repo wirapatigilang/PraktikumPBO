@@ -5,7 +5,7 @@ public class Koleksi {
     private int nbElm;
 
     public Koleksi(int size){
-        this.wadah = new ArrayList<Character>(size);
+        this.wadah = new ArrayList<>(size);
         for (int i = 0; i < size; i++) {
             wadah.add('-');
         }
